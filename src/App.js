@@ -10,7 +10,7 @@ class App extends Component {
 		return (
 			<Provider store={store}>
 				<div>
-					<Header title='Header!'/>
+					<Header title='Product editor!'/>
 					<Content/>
 				</div>
 			</Provider>

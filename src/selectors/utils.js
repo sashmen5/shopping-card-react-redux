@@ -17,9 +17,3 @@ export const normalizeData = (products) => {
 
 	return result;
 };
-
-export const getDisplayedIds = (ids, itemsOnPage, currentPage) => {
-	const maxIndex = currentPage * itemsOnPage;
-	const minIndex = maxIndex - itemsOnPage;
-	return ids.slice(minIndex, maxIndex);
-};

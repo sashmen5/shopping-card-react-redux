@@ -59,7 +59,8 @@ class ProductsList extends React.Component {
 
 const mapStateToProps = state => {
 	return {
-		products: getProductsToDisplay(state.displayProducts.displayedIds, state.products),
+		// products: getProductsToDisplay(state.displayProducts.displayedIds, state.products),
+		products: displayedProductsSelector(state),
 		pages: state.displayProducts.allIds.length / state.displayProducts.itemsOnPage,
 		fullProducts: state.products
 	}

@@ -1,5 +1,5 @@
 import * as actions from "../actions";
-import {getDisplayedIds} from "../../selectors/utils";
+import {getDisplayedIds} from "../../selectors/selectors";
 
 const initialState = {
 	allIds: [],
