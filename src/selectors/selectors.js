@@ -16,7 +16,7 @@ export const displayedProductsSelector = createSelector(
 		debugger;
 		return result;
 	}
-)
+);
 
 
 export const getProductsToDisplay = (displayIds, products) => {

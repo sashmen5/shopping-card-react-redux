@@ -3,7 +3,7 @@ import ProductItem from "./ProductItem";
 import ReactPaginate from 'react-paginate';
 import {connect} from "react-redux";
 import {changePage, fetchProducts, filterProducts} from "../store/actions";
-import {getProductsToDisplay} from "../selectors/selectors";
+import {displayedProductsSelector, getProductsToDisplay} from "../selectors/selectors";
 
 class ProductsList extends React.Component {
 	componentDidMount() {
